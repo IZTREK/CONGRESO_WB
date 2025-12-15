@@ -1,17 +1,17 @@
-# ?? Sistema de Gesti髇 del Congreso de Mercadotecnia
+# Sistema de Gesti贸n del Congreso de Mercadotecnia
 
-## ?? Descripci髇 del Proyecto
+##  Descripci贸n del Proyecto
 
-Este es un **proyecto integrador transversal** que consiste en un sistema web para la gesti髇 y seguimiento de asistencias del Congreso de Mercadotecnia. El sistema permite a los estudiantes consultar su progreso de asistencia a las diferentes conferencias y actividades del congreso mediante su correo electr髇ico y matr韈ula institucional.
+Este es un **proyecto integrador transversal** que consiste en un sistema web para la gesti贸n y seguimiento de asistencias del Congreso de Mercadotecnia. El sistema permite a los estudiantes consultar su progreso de asistencia a las diferentes conferencias y actividades del congreso mediante su correo electr贸nico y matr铆cula institucional.
 
-## ?? Objetivos del Proyecto
+##  Objetivos del Proyecto
 
 - Facilitar el registro y control de asistencias de estudiantes al congreso
 - Proporcionar una interfaz web intuitiva para consulta de progreso
-- Generar estad韘ticas en tiempo real sobre participaci髇
-- Validar la inscripci髇 y asistencia de los participantes
+- Generar estad铆sticas en tiempo real sobre participaci贸n
+- Validar la inscripci贸n y asistencia de los participantes
 
-## ??? Tecnolog韆s Utilizadas
+## Tecnolog铆as Utilizadas
 
 - **Framework**: ASP.NET Web Forms (.NET Framework 4.7.2)
 - **Lenguaje**: C# 7.3
@@ -19,54 +19,54 @@ Este es un **proyecto integrador transversal** que consiste en un sistema web pa
 - **Frontend**: HTML5, CSS3, Bootstrap
 - **Arquitectura**: Modelo de Capas (DAL - Data Access Layer)
 
-## ?? Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 CONGRESO_WB/
-??? Default.aspx              # P醙ina principal de consulta
-??? Default.aspx.cs           # L骻ica de negocio
-??? Web.config                # Configuraci髇 de la aplicaci髇
-??? Global.asax.cs            # Configuraci髇 global
-??? packages.config           # Paquetes NuGet
-??? DOCUMENTACION_PROYECTO.docx  # Documentaci髇 detallada
+? Default.aspx              # P谩gina principal de consulta
+? Default.aspx.cs           # L贸gica de negocio
+? Web.config                # Configuraci贸n de la aplicaci贸n
+? Global.asax.cs            # Configuraci贸n global
+? packages.config           # Paquetes NuGet
+? DOCUMENTACION_PROYECTO.docx  # Documentaci贸n detallada
 ```
 
-## ?? Funcionalidades Principales
+## Funcionalidades Principales
 
 ### 1. Consulta de Asistencias
 - Los estudiantes pueden consultar su registro de asistencias
-- Validaci髇 mediante correo electr髇ico y matr韈ula
-- Visualizaci髇 de conferencias inscritas y asistidas
+- Validaci贸n mediante correo electr贸nico y matr铆cula
+- Visualizaci贸n de conferencias inscritas y asistidas
 
-### 2. Dashboard de Estad韘ticas
+### 2. Dashboard de Estad铆sticas
 - Total de conferencias inscritas
 - Total de conferencias asistidas
 - Porcentaje de asistencia
 - Indicadores visuales con iconos
 
-### 3. Validaci髇 de Datos
-- Verificaci髇 de campos obligatorios
-- Validaci髇 de coincidencia correo-matr韈ula
+### 3. Validaci贸n de Datos
+- Verificaci贸n de campos obligatorios
+- Validaci贸n de coincidencia correo-matr铆cula
 - Mensajes de error informativos
 
-## ?? Instalaci髇 y Configuraci髇
+## Instalaci贸n y Configuraci贸n
 
 ### Requisitos Previos
 - Visual Studio 2017 o superior
 - SQL Server 2014 o superior
 - .NET Framework 4.7.2
 
-### Pasos de Instalaci髇
+### Pasos de Instalaci贸n
 
 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/IZTREK/CONGRESO_WB.git
    ```
 
-2. **Abrir la soluci髇**
+2. **Abrir la soluci贸n**
    - Abrir `CONGRESO_WB.csproj` en Visual Studio
 
-3. **Configurar la cadena de conexi髇**
+3. **Configurar la cadena de conexi贸n**
    - Editar `Web.config` con los datos de tu servidor SQL
 
 4. **Restaurar paquetes NuGet**
@@ -77,9 +77,9 @@ CONGRESO_WB/
 5. **Compilar y ejecutar**
    - Presionar F5 en Visual Studio
 
-## ?? Configuraci髇 de Base de Datos
+## Configuraci贸n de Base de Datos
 
-La cadena de conexi髇 se encuentra en `Web.config`:
+La cadena de conexi贸n se encuentra en `Web.config`:
 
 ```xml
 <connectionStrings>
@@ -89,29 +89,29 @@ La cadena de conexi髇 se encuentra en `Web.config`:
 </connectionStrings>
 ```
 
-## ?? Uso del Sistema
+## Uso del Sistema
 
-1. **Acceder a la p醙ina principal**
+1. **Acceder a la p谩gina principal**
 2. **Ingresar credenciales**:
-   - Correo electr髇ico institucional
-   - Matr韈ula del estudiante
-3. **Consultar informaci髇**:
+   - Correo electr贸nico institucional
+   - Matr铆cula del estudiante
+3. **Consultar informaci贸n**:
    - Ver tabla de conferencias
-   - Revisar estad韘ticas de asistencia
+   - Revisar estad铆sticas de asistencia
 
-## ?? Equipo de Desarrollo
+## Equipo de Desarrollo
 
 Proyecto desarrollado como parte del **Proyecto Integrador Transversal** de la carrera de Mercadotecnia.
 
-## ?? Licencia
+## Licencia
 
-Este proyecto es de uso acad閙ico para el Congreso de Mercadotecnia.
+Este proyecto es de uso acad茅mico para el Congreso de Mercadotecnia.
 
-## ?? Contacto y Soporte
+## Contacto y Soporte
 
-Para m醩 informaci髇, consultar la documentaci髇 completa en `DOCUMENTACION_PROYECTO.docx` o revisar el video demostrativo en `Link Video.txt`.
+Para m谩s informaci贸n, consultar la documentaci贸n completa en `DOCUMENTACION_PROYECTO.docx` o revisar el video demostrativo en `Link Video.txt`.
 
 ---
 
-**趌tima actualizaci髇**: 2024
+**脷ltima actualizaci贸n**: 2024
 **Repositorio**: [IZTREK/CONGRESO_WB](https://github.com/IZTREK/CONGRESO_WB)
