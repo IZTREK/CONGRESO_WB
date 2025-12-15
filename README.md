@@ -1,17 +1,17 @@
-# ?? Sistema de Gestión del Congreso de Mercadotecnia
+# Sistema de GestiÃ³n del Congreso de Mercadotecnia
 
-## ?? Descripción del Proyecto
+##  DescripciÃ³n del Proyecto
 
-Este es un **proyecto integrador transversal** que consiste en un sistema web para la gestión y seguimiento de asistencias del Congreso de Mercadotecnia. El sistema permite a los estudiantes consultar su progreso de asistencia a las diferentes conferencias y actividades del congreso mediante su correo electrónico y matrícula institucional.
+Este es un **proyecto integrador transversal** que consiste en un sistema web para la gestiÃ³n y seguimiento de asistencias del Congreso de Mercadotecnia. El sistema permite a los estudiantes consultar su progreso de asistencia a las diferentes conferencias y actividades del congreso mediante su correo electrÃ³nico y matrÃ­cula institucional.
 
-## ?? Objetivos del Proyecto
+##  Objetivos del Proyecto
 
 - Facilitar el registro y control de asistencias de estudiantes al congreso
 - Proporcionar una interfaz web intuitiva para consulta de progreso
-- Generar estadísticas en tiempo real sobre participación
-- Validar la inscripción y asistencia de los participantes
+- Generar estadÃ­sticas en tiempo real sobre participaciÃ³n
+- Validar la inscripciÃ³n y asistencia de los participantes
 
-## ??? Tecnologías Utilizadas
+## TecnologÃ­as Utilizadas
 
 - **Framework**: ASP.NET Web Forms (.NET Framework 4.7.2)
 - **Lenguaje**: C# 7.3
@@ -19,41 +19,53 @@ Este es un **proyecto integrador transversal** que consiste en un sistema web pa
 - **Frontend**: HTML5, CSS3, Bootstrap
 - **Arquitectura**: Modelo de Capas (DAL - Data Access Layer)
 
-## ?? Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 CONGRESO_WB/
-??? Default.aspx              # Página principal de consulta
-??? Default.aspx.cs           # Lógica de negocio
-??? Default.aspx.designer.cs  # Controles de la página
-??? Web.config                # Configuración de la aplicación
-??? Global.asax.cs            # Configuración global
+??? Default.aspx              # Pï¿½gina principal de consulta
+??? Default.aspx.cs           # Lï¿½gica de negocio
+??? Default.aspx.designer.cs  # Controles de la pï¿½gina
+??? Web.config                # Configuraciï¿½n de la aplicaciï¿½n
+??? Global.asax.cs            # Configuraciï¿½n global
 ??? packages.config           # Paquetes NuGet
-??? DOCUMENTACION_PROYECTO.docx  # Documentación detallada
+??? DOCUMENTACION_PROYECTO.docx  # Documentaciï¿½n detallada
 ??? README.md                 # Este archivo
+? Default.aspx              # PÃ¡gina principal de consulta
+? Default.aspx.cs           # LÃ³gica de negocio
+? Web.config                # ConfiguraciÃ³n de la aplicaciÃ³n
+? Global.asax.cs            # ConfiguraciÃ³n global
+? packages.config           # Paquetes NuGet
+? DOCUMENTACION_PROYECTO.docx  # DocumentaciÃ³n detallada
 ```
 
-## ?? Funcionalidades Principales
+## Funcionalidades Principales
 
 ### 1. Consulta de Asistencias
 - Los estudiantes pueden consultar su registro de asistencias
-- Validación mediante correo electrónico y matrícula
-- Visualización de conferencias inscritas y asistidas
-- GridView con información detallada de cada conferencia
+- Validaciï¿½n mediante correo electrï¿½nico y matrï¿½cula
+- Visualizaciï¿½n de conferencias inscritas y asistidas
+- GridView con informaciï¿½n detallada de cada conferencia
+- ValidaciÃ³n mediante correo electrÃ³nico y matrÃ­cula
+- VisualizaciÃ³n de conferencias inscritas y asistidas
 
-### 2. Dashboard de Estadísticas
+### 2. Dashboard de EstadÃ­sticas
 - Total de conferencias inscritas
 - Total de conferencias asistidas
-- Porcentaje de asistencia calculado automáticamente
+- Porcentaje de asistencia calculado automï¿½ticamente
 - Indicadores visuales con iconos y colores
 
-### 3. Validación de Datos
-- Verificación de campos obligatorios
-- Validación de coincidencia correo-matrícula
+### 3. Validaciï¿½n de Datos
+- Verificaciï¿½n de campos obligatorios
+- Validaciï¿½n de coincidencia correo-matrï¿½cula
 - Mensajes de error informativos y amigables
 - Manejo de excepciones robusto
+### 3. ValidaciÃ³n de Datos
+- VerificaciÃ³n de campos obligatorios
+- ValidaciÃ³n de coincidencia correo-matrÃ­cula
+- Mensajes de error informativos
 
-## ?? Instalación y Configuración
+## InstalaciÃ³n y ConfiguraciÃ³n
 
 ### Requisitos Previos
 - Visual Studio 2017 o superior
@@ -61,17 +73,17 @@ CONGRESO_WB/
 - .NET Framework 4.7.2
 - IIS Express o IIS
 
-### Pasos de Instalación
+### Pasos de InstalaciÃ³n
 
 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/IZTREK/CONGRESO_WB.git
    ```
 
-2. **Abrir la solución**
+2. **Abrir la soluciÃ³n**
    - Abrir `CONGRESO_WB.csproj` en Visual Studio
 
-3. **Configurar la cadena de conexión**
+3. **Configurar la cadena de conexiÃ³n**
    - Editar `Web.config` con los datos de tu servidor SQL
 
 4. **Restaurar paquetes NuGet**
@@ -81,11 +93,11 @@ CONGRESO_WB/
 
 5. **Compilar y ejecutar**
    - Presionar F5 en Visual Studio
-   - El navegador se abrirá automáticamente
+   - El navegador se abrirï¿½ automï¿½ticamente
 
-## ?? Configuración de Base de Datos
+## ConfiguraciÃ³n de Base de Datos
 
-La cadena de conexión se encuentra en `Web.config`:
+La cadena de conexiÃ³n se encuentra en `Web.config`:
 
 ```xml
 <connectionStrings>
@@ -98,26 +110,26 @@ La cadena de conexión se encuentra en `Web.config`:
 ### Estructura de Base de Datos
 
 El sistema utiliza las siguientes tablas principales:
-- **Alumnos**: Información de los estudiantes
-- **Conferencias**: Catálogo de conferencias del congreso
+- **Alumnos**: Informaciï¿½n de los estudiantes
+- **Conferencias**: Catï¿½logo de conferencias del congreso
 - **Inscripciones**: Registro de inscripciones
 - **Asistencias**: Control de asistencias
 
 ## ?? Uso del Sistema
 
-1. **Acceder a la página principal**
+1. **Acceder a la pï¿½gina principal**
    - Navegar a `http://localhost:puerto/Default.aspx`
 
 2. **Ingresar credenciales**:
-   - Correo electrónico institucional
-   - Matrícula del estudiante
+   - Correo electrï¿½nico institucional
+   - Matrï¿½cula del estudiante
 
-3. **Consultar información**:
+3. **Consultar informaciï¿½n**:
    - Ver tabla de conferencias inscritas
-   - Revisar estadísticas de asistencia en tiempo real
+   - Revisar estadï¿½sticas de asistencia en tiempo real
    - Identificar conferencias pendientes
 
-## ?? Características Técnicas
+## ?? Caracterï¿½sticas Tï¿½cnicas
 
 ### Capa de Acceso a Datos (DAL)
 ```csharp
@@ -127,16 +139,25 @@ DataTable resultados = dao.ObtenerProgresoAlumno(email, matricula);
 ```
 
 ### Validaciones
-- Validación de campos vacíos
-- Verificación de formato de correo
-- Validación de existencia de registros
+- Validaciï¿½n de campos vacï¿½os
+- Verificaciï¿½n de formato de correo
+- Validaciï¿½n de existencia de registros
 
 ### Manejo de Errores
-- Try-catch en operaciones críticas
+- Try-catch en operaciones crï¿½ticas
 - Mensajes de error descriptivos
 - Logging de excepciones
+## Uso del Sistema
 
-## ?? Equipo de Desarrollo
+1. **Acceder a la pÃ¡gina principal**
+2. **Ingresar credenciales**:
+   - Correo electrÃ³nico institucional
+   - MatrÃ­cula del estudiante
+3. **Consultar informaciÃ³n**:
+   - Ver tabla de conferencias
+   - Revisar estadÃ­sticas de asistencia
+
+## Equipo de Desarrollo
 
 Proyecto desarrollado como parte del **Proyecto Integrador Transversal** de la carrera de Mercadotecnia.
 
@@ -150,19 +171,21 @@ Para contribuir al proyecto:
 5. Abre un Pull Request
 
 ## ?? Licencia
+## Licencia
 
-Este proyecto es de uso académico para el Congreso de Mercadotecnia.
+Este proyecto es de uso acadÃ©mico para el Congreso de Mercadotecnia.
 
-## ?? Contacto y Soporte
+## Contacto y Soporte
 
-Para más información, consultar la documentación completa en `DOCUMENTACION_PROYECTO.docx` o revisar el video demostrativo en `Link Video.txt`.
+Para mÃ¡s informaciÃ³n, consultar la documentaciÃ³n completa en `DOCUMENTACION_PROYECTO.docx` o revisar el video demostrativo en `Link Video.txt`.
 
 ## ?? Reporte de Problemas
 
-Si encuentras algún error o tienes sugerencias, por favor abre un issue en el repositorio de GitHub.
+Si encuentras algï¿½n error o tienes sugerencias, por favor abre un issue en el repositorio de GitHub.
 
 ---
 
-**Última actualización**: 2024  
-**Versión**: 1.0.0  
+**ï¿½ltima actualizaciï¿½n**: 2024  
+**Versiï¿½n**: 1.0.0  
+**Ãšltima actualizaciÃ³n**: 2024
 **Repositorio**: [IZTREK/CONGRESO_WB](https://github.com/IZTREK/CONGRESO_WB)
