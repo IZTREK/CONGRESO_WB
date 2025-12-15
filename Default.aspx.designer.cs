@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace AICD_ASP
+namespace CONGRESO_WB
 {
 
 

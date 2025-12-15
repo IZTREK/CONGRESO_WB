@@ -3,7 +3,7 @@ using System.Data;
 using CongresoModelo;
 using Modelo;
 
-namespace AICD_ASP
+namespace CONGRESO_WB
 {
     public partial class Default : System.Web.UI.Page
     {
